@@ -1,21 +1,37 @@
 # Concesionario-Web-Backend
 
-Backend en desarrollo para una aplicación web de gestión de concesionarios, implementando la lógica de negocio y la conexión con la base de datos. Proyecto en curso.
+Backend para una aplicación web de gestión de concesionarios de vehículos.  
+Proyecto en curso, desarrollado íntegramente por mí.  
 
 ## Tecnologías
+
 - Java
 - Spring Boot
 - MySQL
-- Maven/Gradle (según uses)
+- Maven
 
-## Funcionalidades actuales
-- Gestión de vehículos y concesionarios
-- Conexión con base de datos
-- API REST para el frontend
+## Estructura y funcionalidades
 
-## Estado del proyecto
-- Proyecto en curso
-- Algunas funcionalidades pendientes: seguridad (Spring Security), roles de usuario, validaciones avanzadas
+- **Controladores:** gestionan las peticiones REST
+- **Servicios:** lógica de negocio
+- **Repositorios:** conexión y operaciones con base de datos (JPA)
+- **DTOs:** transferencia de datos entre capas
+- **Excepciones personalizadas**
+- **Utils y Config:** utilidades y configuración del proyecto
+
+Funcionalidades actuales:  
+- CRUD de vehículos y concesionarios
+- API REST lista para consumo del frontend
+- Conexión con MySQL
+
+## Próximos pasos
+
+- Seguridad con Spring Security
+- Roles de usuario (admin, vendedor, cliente)
+- Validaciones avanzadas
 
 ## Repositorio
-- Backend desarrollado por mí. Frontend no incluido; proyecto en curso.
+
+[Concesionario-Web-Backend](https://github.com/AmerMiracle0230/Concesionario-Web-Backend)
+
+> Nota: El frontend está siendo desarrollado por otro miembro del equipo.
