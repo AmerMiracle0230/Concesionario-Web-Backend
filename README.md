@@ -1,7 +1,7 @@
 # Concesionario-Web-Backend
 
-Backend para una aplicación web de gestión de concesionarios de vehículos.  
-Proyecto en curso, desarrollado íntegramente por mí.  
+Backend para una aplicación web de gestión de un taller de vehículos.
+Proyecto en curso, desarrollado íntegramente por mí.
 
 ## Tecnologías
 
